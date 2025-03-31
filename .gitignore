@@ -503,8 +503,19 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
-# Ignore all executables
+# All executables
 *.exe
 
-# Ignore sound cache files
+# All sound cache files
 *.cache
+
+# Configuration data
+game/mod_tf/stats.txt
+game/mod_tf/GameState.txt
+game/mod_tf/voice_ban.dt
+game/mod_tf/cfg/local_loadout.txt
+game/mod_tf/cfg/server_blacklist.txt
+game/platform/config/InGamedialogconfig.vdf
+game/platform/config/Serverbrowser.vdf
+game/steam_appid.txt
+
