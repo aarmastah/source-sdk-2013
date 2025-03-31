@@ -502,3 +502,9 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Ignore all executables
+*.exe
+
+# Ignore sound cache files
+*.cache
